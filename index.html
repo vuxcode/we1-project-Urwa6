@@ -3,43 +3,67 @@
 <html>
   <head>
     <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
   </head>
   <style>
-    
-       html {
-      background: linear-gradient( 90deg,#7D8CC4,#BEE7E8);
+   
+   * {
+    margin: 0;
+    padding: 0;
+
+
+   }
+
+   html {
+    display: flex;
+     
     }
-    
-     img {
+
+    img {
     
       width: 101px;
     }
-    
+
+
     h1 {
       color: #7D8CC4;
-      text-align: center;
+      text-align: left;
+      padding-bottom: 10px;
+      padding-top: 45px;
+      position: relative;
+      margin: 19 50 0 0;
+      font-family: 'Macondo', cursive;;
+      font-size: 40px;
     }
-
-    a {
+    
+   div1,div2,div3 {
       text-align: center;
       text-decoration: none;
       color: #BEE7E8;
-      background-color: #726DA8;
+      background-color: #2d2a49;
       display: block;
-      border: #726DA8;
+      border: #301430;
       border-style: outset;
-      width: 125px;
-      height: 24px;
+      width: 525px;
+      height: 54px;
       padding: 6px;
-      margin: 10px;
+      margin: 0 0 0 880px;
+      margin-bottom: 6px;
+      align-items:;
     }
-      
+
+    a {
+        text-decoration: none;
+        font-family: 'Macondo', cursive;
+        font-size: 20px;
+    }
+    
     a:link {
         color: brown;
     }
 
     a:visited {
-        color: black;
+        color: wheat;
 
     }
       
@@ -52,21 +76,40 @@
         color: rebeccapurple;
 
     }
+    .main {
+        width: 618px;
+    }
+    p {
+        margin-left: 78px;
+        font-family: 'Macondo', cursive;
+    }
 
 
 
   </style>
-  
   <body>
     <div>
-      <a href= "#"><img src="logo.png"></a>
-    </div>
-    <h1>Welcome to Urwah's Design Portfolio<h1>
-    <div>
-      <a href="">About me</a> 
-      <a href="">Portfolio</a> 
+     <a href='#'></a><img src="logo.png"></a>
+      </div>
+      <h1>Welcome to Urwah's Design Portfolio</h1>
+      <p>Hello, My name is Urwah Adil.<br> I am a Fashion Designer and<br>
+         alot more which 
+        you can read <br><a href="Aboutme.html">here</a>.
+     </p>
+    
+    <div1>
+      <a href="Aboutme.html">About me</a>
+    </div1>
+     <div2>
+      <a href="">Portfolio</a>
+     </div2>
+     <div3>
       <a href="">Get in touch</a>
+    </div3>
+    <div>
+        <img src="main.jpg" class="main">
     </div>
+   
   
   </body>
     
