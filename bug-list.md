@@ -4,3 +4,4 @@
 
 1. Problem: 
 I need to add alt src on all images.
+2. I need to separate the style link.
