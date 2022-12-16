@@ -13,4 +13,7 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 # Project Summary
 
-> Before the final submission date you should include a "PROJECT SUMMARY" in this section here.
+> I made Portfolio Web page for my work so any one who is interested to work together can see my profile. I have made four pages. First is the title one. In the second page i give little information About me. Third consists of Portfolio. Through the fourth page user can contact me through website. 
+
+# If I had more time
+I wanted to add slider photos in Portfolio page, i have a little idea how i can do that. We have two days remaining so hopefully i can add a little slider too.
