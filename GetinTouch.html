@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>GetInTouch</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/c96d159cc1.js" crossorigin="anonymous"></script>
   
@@ -13,12 +13,16 @@
     }
 
     html {
+   
       background-image: url(images/imagebg.jpg);
+
 
     }
 
     div {
       background:  #2A3D45;
+      box-shadow: 0px 10px 15px -3px #7A6C5D;
+      border-radius: 25px;
       display: inline-block;
       width: 500px;
       height: 450px;
@@ -41,6 +45,7 @@
     a {
         color: #FFC130;
         text-align: center;
+        
     }
 
     img {
@@ -48,6 +53,11 @@
     }
     iframe{
       align-items: center;
+    }
+    fieldset{
+      border-radius: 4px;
+      margin-left: 13px;
+      
     }
 
     form,
@@ -58,6 +68,7 @@
     
     input {
       margin-bottom: 12px;
+  
     }
 
     label {
@@ -71,7 +82,11 @@
     textarea {
       font-size: 24px;
       width: 100%;
-      color: #2A3D45;
+      color: #EAF8BF;
+      background-color: #2A3D45;
+      border-radius: 10px;
+      
+      
     }
     #submit {
       display: block;
@@ -82,7 +97,12 @@
     .alignment {
       align-items: left;
     }
-     
+     .send{
+      width: 220px;
+      margin-left: 5.5em;
+      margin-top: 2px;
+      border-color: #EAF8BF;
+     }
      
   ul {
     
@@ -130,6 +150,12 @@
  }
  li a:hover {
     background-color: #C17C74;
+    box-shadow: 0px 10px 15px -3px #7A6C5D;
+    color:black;
+    transform: rotateY(360deg);
+  transition: .5s;
+  z-index: 2;
+
 }
 p {
         
@@ -150,7 +176,7 @@ p {
   </style>
 </head>
 <body>
-    <a style="padding: 0px;" href="index.html"><img src="images/URWALOGO1.png" class="logo">
+    <a style="padding: 0px;" href="TitlePage1.html"><img src="images/URWALOGO1.png" class="logo">
         <ul>
             <li><a href="About.html">About me</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>  
@@ -184,7 +210,7 @@ p {
              </label>
      
          </fieldset>
-             <input style="width: 114px;" type="submit" value="Send">
+             <input class="send" type="submit" value="Send">
        
       </form>
     
@@ -203,9 +229,16 @@ p {
   </div>
  </main>
  <ul class="wrapping">
-      <li style="display: inline-block;"><a style="color: #7A6C5D;" href='https://www.linkedin.com/in/urwa-adil-2924bab2/'><i class="fa-brands fa-linkedin"></i></a></li>
-      <li style="display: inline-block;"><a style="color: #7A6C5D;" href='https://www.instagram.com/urwahaider/'><i class="fa-brands fa-instagram"></i></a></li>
-      <li style="display: inline-block;"><a style="color: #7A6C5D;" href='https://www.facebook.com/urwa.haider.3'><i class="fa-brands fa-facebook"></i></a></li>
-   </ul>
+  <li style="display: inline-block;"><a style="color: #7A6C5D;"
+     href='https://www.linkedin.com/in/urwa-adil-2924bab2/'><i class="fa-brands fa-linkedin"></i></a></li>
+  <li style="display: inline-block;"><a style="color: #7A6C5D;"
+     href='https://www.instagram.com/urwahaider/'><i class="fa-brands fa-instagram"></i></a></li>
+  <li style="display: inline-block;"><a style="color: #7A6C5D;"
+     href='https://www.facebook.com/urwa.haider.3'><i class="fa-brands fa-facebook"></i></a></li>
+
+     <li style="display: inline-block;"><a style="color: #7A6C5D;"
+      href='https://mail.google.com/mail/u/0/'><i class="fa-solid fa-envelope"></i></a></li>
+</ul>
+
 </body>
 </html>
