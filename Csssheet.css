@@ -1,0 +1,147 @@
+
+   * {
+        padding: 0;
+        margin: 0;
+    }
+  
+   
+
+    .alignment {
+      align-items: left;
+    }
+    
+ ul {
+    
+    list-style-type:none ;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    text-align: right;
+    font-family: 'Macondo', cursive;
+    font-size: 20px;
+    }
+    
+ 
+ li {
+    display: inline-block;
+ }
+
+ .logo {
+    
+    width: 104px;
+    float: left;
+    margin: 0.5%;
+    display: inline-flex;
+  }
+
+  .left {
+   align-items: left;
+  }
+
+
+ li a {
+    color: #2A3D45;
+    display: block;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 17px;
+    text-align: center;
+    -webkit-text-stroke-width: thin;
+    font-size: larger;
+
+ }
+ li a:hover {
+    background-color: #C17C74;
+    box-shadow: 0px 10px 15px -3px #7A6C5D;
+}
+p {
+        
+   font-family:  'Macondo', cursive;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   font-size: 20px;
+   letter-spacing: .04em;
+   line-height: 1.5em;
+   font-weight: 60%;
+   color:  #2A3D45;
+   display: inline-block;
+   backdrop-filter: blur(15px);
+ 
+   
+}
+
+div {
+ 
+  background: #E9DCCD;
+ display: inline-block;
+
+
+      
+}
+div,
+.class{
+   min-width: 100%;
+   margin-top: 10vh;
+   border: #2A3D45;
+   
+}
+
+img { 
+
+   width: 532px;
+   display: inline-block;
+   opacity: 1;
+   transform: translate(0px, 0%);
+
+}
+ img:hover{
+   box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+ }
+
+
+.wrapping {
+   background: #2A3D45;
+      list-style-type: none;
+      margin:0px;
+      padding: 25px;
+      overflow: hidden;
+      text-align: center;
+}
+html {
+   background-image: url(images/imagebg.jpg);
+
+ }
+
+ form,
+ #submit {
+   font-size: 20px;
+   width: 500px;
+ }
+ 
+ input {
+   margin-bottom: 12px;
+ }
+
+ label {
+   display: inline-block;
+   margin-bottom: 12px;
+ }
+
+
+ input,
+ textarea {
+   font-size: 24px;
+   padding: 12px;
+   width: 100%;
+ }
+ #submit {
+   display: block;
+   margin: 16px auto;
+   padding: 16px 0;
+ }
+ .alignment {
+   align-items: left;
+ }
+ 
+
+  
